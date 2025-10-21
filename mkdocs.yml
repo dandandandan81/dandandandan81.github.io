@@ -1,0 +1,57 @@
+site_name: Customer Documentation
+nav:
+  - Home: index.md
+  - Setup:
+    - Preinstall:
+      - Network Requirements: 
+        - With Live TV (via Multicast): network/livetv.md
+        - No Live TV: network/nolivetv.md
+        - ATV on Wifi: network/wifi.md
+        - Spectrum TV: network/spectrum.md
+      - Apple TV Hardware: network/atvhardware.md
+  - User Guide:
+    - Glyde: user-guides/glyde.md
+    - Apple TV: user-guides/appletv.md
+    - Live TV App: user-guides/livetv.md
+    - Hotel / Balcony App: user-guides/balcony.md
+    - Reset App: user-guides/reset.md
+  - Support: support/index.md
+site_url: https://dandandandan81.github.io
+theme:
+  name: material
+  palette:
+    primary: custom
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  features:
+    - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+  favicon: assets/favicon.png
+  logo: assets/favicon.png
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+copyright: Copyright &copy; 2025 ROOMNET LTD
+

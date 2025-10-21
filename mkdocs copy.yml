@@ -1,0 +1,72 @@
+site_name: Customer Documentation
+nav:
+  - Home: index.md
+  - Setup:
+  - Preperation:
+  - TV Configuration : index.md
+  - Apple TV Hardware: index.md
+  - Apple Business Manager: index.md
+  - Network:
+  - Live TV: index.md
+  - No Live TV: index.md
+  - Wifi: index.md
+  - Spectrum: index.md
+  - Install:
+  - Caching Server: index.md
+  - Apple TV onboarding: index.md
+  - User Guide:
+  - Developer Guide:
+  - About:
+  - Release Notes: index.md
+  - Contributing: index.md
+site_url: https://dandandandan81.github.io
+theme:
+  name: material
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: indigo
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  features:
+    - navigation.footer
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+copyright: Copyright &copy; 2025 ROOMNET LTD
+
