@@ -1,0 +1,1327 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://dandandandan81.github.io/network/livetv/">
+      
+      
+        <link rel="prev" href="../..">
+      
+      
+        <link rel="next" href="../nolivetv/">
+      
+      
+      <link rel="icon" href="../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
+    
+    
+      
+        <title>With Live TV (via Multicast) - Customer Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.84d31ad4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,400,400i,700,700i%7CRed+Hat+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Merriweather Sans";--md-code-font:"Red Hat Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#roomnet-apple-tv-network-requirements-for-networks-with-live-tv-via-multicast" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Customer Documentation" class="md-header__button md-logo" aria-label="Customer Documentation" data-md-component="logo">
+      
+  <img src="../../assets/favicon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Customer Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              With Live TV (via Multicast)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+  Setup
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../user-guides/glyde/" class="md-tabs__link">
+          
+  
+  
+  User Guide
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../support/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Support
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Customer Documentation" class="md-nav__button md-logo" aria-label="Customer Documentation" data-md-component="logo">
+      
+  <img src="../../assets/favicon.png" alt="logo">
+
+    </a>
+    Customer Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Setup
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Setup
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Preinstall
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Preinstall
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_1" id="__nav_2_1_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Network Requirements
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            Network Requirements
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    With Live TV (via Multicast)
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    With Live TV (via Multicast)
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#core-network-foundation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Core Network Foundation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Network Foundation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dedicated-network-infrastructure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dedicated Network Infrastructure
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#network-connectivity-traffic-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Network Connectivity &amp; Traffic Management
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#essential-services-servers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Essential Services &amp; Servers
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Essential Services &amp; Servers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#roomnet-caching-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      ROOMNET Caching Server
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dns-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNS Configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dhcp-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      DHCP Management
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#switch-port-optimizations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Switch &amp; Port Optimizations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Switch &amp; Port Optimizations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#port-fast-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Port-Fast Configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mdns-traffic-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      mDNS Traffic Management
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bandwidth-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bandwidth &amp; Performance
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bandwidth &amp; Performance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bandwidth-recommendations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bandwidth Recommendations
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multicast-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multicast Management
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nolivetv/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    No Live TV
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wifi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ATV on Wifi
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../spectrum/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Spectrum TV
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../atvhardware/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apple TV Hardware
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    User Guide
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            User Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guides/glyde/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glyde
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guides/appletv/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apple TV
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guides/livetv/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Live TV App
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guides/balcony/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hotel / Balcony App
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guides/reset/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reset App
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../support/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Support
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#core-network-foundation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Core Network Foundation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Network Foundation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dedicated-network-infrastructure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dedicated Network Infrastructure
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#network-connectivity-traffic-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Network Connectivity &amp; Traffic Management
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#essential-services-servers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Essential Services &amp; Servers
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Essential Services &amp; Servers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#roomnet-caching-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      ROOMNET Caching Server
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dns-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNS Configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dhcp-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      DHCP Management
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#switch-port-optimizations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Switch &amp; Port Optimizations
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Switch &amp; Port Optimizations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#port-fast-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Port-Fast Configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mdns-traffic-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      mDNS Traffic Management
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bandwidth-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bandwidth &amp; Performance
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bandwidth &amp; Performance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bandwidth-recommendations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bandwidth Recommendations
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multicast-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      Multicast Management
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="roomnet-apple-tv-network-requirements-for-networks-with-live-tv-via-multicast">ROOMNET Apple TV Network Requirements: For Networks with live TV via Multicast</h1>
+<p>The ROOMNET Apple TV solution is cloud-based and enables users to stream their favorite content. A robust and correctly configured network is essential for a good user experience.</p>
+<h2 id="core-network-foundation">Core Network Foundation</h2>
+<p>This section covers the fundamental network infrastructure, including dedicated networks, IP addressing, and hardware specifications.</p>
+<h3 id="dedicated-network-infrastructure">Dedicated Network Infrastructure</h3>
+<p><strong>Dedicated VLAN:</strong> The IPTV network must operate on a dedicated VLAN that spans the entire property as one unified network. This VLAN should <em>NOT</em> be the default VLAN (typically VLAN 1). If additional services beyond TV systems are required on the IPTV VLAN, inform your project manager to ensure no impact on the TV solution.</p>
+<p><strong>Public IP Addresses:</strong>
+- A dedicated static public IP address per property is required for the TV solution.
+- The dynamic top-shelf configuration relies on the public IP address of each Apple TV for communication with ROOMNET's cloud infrastructure.
+- Each property must use a unique public IP.
+- A maximum of two separate public IP blocks per location is supported.
+- If more than one public IP is used, notify your project manager or ROOMNET as soon as possible for the necessary additional DHCP configuration.</p>
+<p><strong>Hardware:</strong>
+- We recommend enterprise-grade networking hardware throughout the IPTV/Apple TV network. This includes manufacturers such as Cisco, Ruckus, and HP/Aruba.
+- All copper edge ports Apple TVs must be Gigabit throughout the network.
+- All uplink ports between switching hardware should Gigabit or better.</p>
+<h3 id="network-connectivity-traffic-management">Network Connectivity &amp; Traffic Management</h3>
+<p><strong>Wired Connectivity:</strong> Ensure wired Gigabit network connectivity for all in-room hardware.</p>
+<p><strong>Outbound Traffic:</strong> The IPTV VLAN must have no outbound restrictions. This network should be managed similarly to guest HSIA networks, meaning no filtering, proxies, packet inspection, or other technologies that could interfere with outbound network traffic. There are no requirements for inbound configurations.</p>
+<h2 id="essential-services-servers">Essential Services &amp; Servers</h2>
+<p>This section details the critical services and servers required for the Apple TV solution to function correctly.</p>
+<h3 id="roomnet-caching-server">ROOMNET Caching Server</h3>
+<p><strong>Purpose:</strong> This server is a Mac Mini that utilizes Apple's caching service along with custom ROOMNET configurations. It hosts apps, firmware, and local replicas of assets such as branding, channel icons, and top-shelf content. It also provides a convenient way to investigate network issues.</p>
+<p><strong>Location &amp; Access:</strong> The caching server must be accessible by all Apple TVs with bi-directional communication and should exist within the same VLAN as the Apple TVs.</p>
+<p><strong>IP Addressing:</strong> The caching server requires two static IP addresses.</p>
+<h3 id="dns-configuration">DNS Configuration</h3>
+<p><strong>Primary DNS:</strong> The ROOMNET caching server will run as a virtual machine and act as the primary DNS server for the IPTV network. This allows local hosting of content like artwork and icons, improving the guest experience.</p>
+<p><strong>Additional DNS:</strong> ROOMNET will provide secondary and tertiary DNS servers during the project phase. It is crucial <em>NOT</em> to add additional DNS servers, as this will negatively affect platform performance.</p>
+<h3 id="dhcp-management">DHCP Management</h3>
+<p><strong>Requirement:</strong> DHCP should be configured on the IPTV VLAN.</p>
+<p><strong>IP Assignment:</strong> Manual IP addresses for IPTV endpoints cannot be used because devices are wiped after checkout. However, it is acceptable to use DHCP reservations via MAC address. A complete list of MAC addresses cannot be made available until all Apple TVs have been enrolled in MDM.</p>
+<h2 id="switch-port-optimizations">Switch &amp; Port Optimizations</h2>
+<p>This section outlines specific switch and port configurations needed for optimal performance and management of Apple TV traffic.</p>
+<h3 id="port-fast-configuration">Port-Fast Configuration</h3>
+<p><strong>Requirement:</strong> All switch ports with Apple TVs connected should have port-fast enabled.</p>
+<p><strong>Caution:</strong> Not enabling port-fast may result in Apple TVs failing to configure automatically after a checkout.</p>
+<p><strong>Note:</strong> If spanning tree is not configured, this step is unnecessary.</p>
+<h3 id="mdns-traffic-management">mDNS Traffic Management</h3>
+<p><strong>Issue:</strong> Apple devices generate significant background traffic via mDNS. When many Apple TVs are on a single VLAN, this will slow content loading and hardware performance.</p>
+<p><strong>Solution (ACLs):</strong> To avoid these issues, apply ACLs (Access Control Lists) to block IPv4 and IPv6 mDNS traffic.</p>
+<ul>
+<li>Example IPv4 ACL: Deny host 224.0.0.251 port 5353 and permit all other UDP traffic.</li>
+<li>Example IPv6 ACL: Deny ff02::fb/128 any port 5353 and permit all other UDP traffic.</li>
+</ul>
+<p><strong>Application:</strong> Apply these restrictions to the edge ports where Apple TVs connect. If that is not possible, apply them to uplink ports to contain mDNS traffic to each switch.</p>
+<p><strong>Caution:</strong> Avoid general port isolation commands, as they can disrupt MDM connections and other functions.</p>
+<h2 id="bandwidth-performance">Bandwidth &amp; Performance</h2>
+<p>This section provides recommendations for managing network bandwidth to ensure a consistent and high-quality guest experience.</p>
+<h3 id="bandwidth-recommendations">Bandwidth Recommendations</h3>
+<p><strong>Efficiency:</strong> Apple TVs are generally efficient in WAN bandwidth usage. Most applications do not require constant streaming from external sources, and video content (except live TV) is typically downloaded in chunks using protocols like DASH or HLS.</p>
+<p><strong>Recommendation:</strong> We recommend 5 Mbps per device to ensure a consistently good experience for all guests.</p>
+<p><strong>Management:</strong> Avoid per-device bandwidth restrictions, as they complicate management and updates. If there are concerns over bandwidth availability or management, discuss these with your account or project manager.</p>
+<h2 id="multicast-management">Multicast Management</h2>
+<p>IGMP configuration is essential for managing multicast streams across the network. It ensures that TV streams are managed efficiently and do not flood the network. Version 2 or 3 can be used, but the version must be consistent across all switches, sources and endpoints.</p>
+<p>One switch must be configured as the querier, typically the one connected to the IPTV source.
+All other switches must have IGMP snooping enabled.
+If the IGMP version needs to be changed, notify support, as all Apple TVs will require a reboot.</p>
+<p>For switches that are part of the infrastructure but do not have IPTV clients connected, two configuration options exist:</p>
+<p>Do not add the Apple TV VLAN to the switch.
+Add the VLAN to the switch and enable IGMP snooping, regardless of whether IPTV clients will connect.
+Streams should be tested using VLC on a Windows or Mac device. Monitor IGMP processes on switches to ensure proper group management.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../.." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Home
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../nolivetv/" class="md-footer__link md-footer__link--next" aria-label="Next: No Live TV">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                No Live TV
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 ROOMNET LTD
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.footer", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
