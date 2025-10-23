@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://dandandandan81.github.io/network/livetv/">
+        <link rel="canonical" href="https://dandandandan81.github.io/network/unicast/">
       
       
-        <link rel="prev" href="../..">
+        <link rel="prev" href="../multicast/">
       
       
-        <link rel="next" href="../nolivetv/">
+        <link rel="next" href="../wifi/">
       
       
       <link rel="icon" href="../../assets/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>With Live TV (via Multicast) - Customer Documentation</title>
+        <title>No Multicast - Customer Documentation</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#roomnet-apple-tv-network-requirements-for-networks-with-live-tv-via-multicast" class="md-skip">
+        <a href="#roomnet-apple-tv-network-requirements-for-networks-without-live-tv" class="md-skip">
           Skip to content
         </a>
       
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              With Live TV (via Multicast)
+              No Multicast
             
           </span>
         </div>
@@ -260,7 +260,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="../" class="md-tabs__link">
           
   
   
@@ -528,6 +528,52 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Overview
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../multicast/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    With Multicast
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -545,7 +591,7 @@
   
   
   <span class="md-ellipsis">
-    With Live TV (via Multicast)
+    No Multicast
     
   </span>
   
@@ -558,7 +604,7 @@
   
   
   <span class="md-ellipsis">
-    With Live TV (via Multicast)
+    No Multicast
     
   </span>
   
@@ -712,42 +758,10 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#multicast-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      Multicast Management
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../nolivetv/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    No Live TV
-    
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -765,30 +779,7 @@
   
   
   <span class="md-ellipsis">
-    ATV on Wifi
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../spectrum/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Spectrum TV
+    WiFi
     
   </span>
   
@@ -1122,15 +1113,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#multicast-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      Multicast Management
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1147,7 +1129,7 @@
 
 
 
-<h1 id="roomnet-apple-tv-network-requirements-for-networks-with-live-tv-via-multicast">ROOMNET Apple TV Network Requirements: For Networks with live TV via Multicast</h1>
+<h1 id="roomnet-apple-tv-network-requirements-for-networks-without-live-tv">ROOMNET Apple TV Network Requirements: For Networks without Live TV</h1>
 <p>The ROOMNET Apple TV solution is cloud-based and enables users to stream their favorite content. A robust and correctly configured network is essential for a good user experience.</p>
 <h2 id="core-network-foundation">Core Network Foundation</h2>
 <p>This section covers the fundamental network infrastructure, including dedicated networks, IP addressing, and hardware specifications.</p>
@@ -1199,15 +1181,6 @@
 <p><strong>Efficiency:</strong> Apple TVs are generally efficient in WAN bandwidth usage. Most applications do not require constant streaming from external sources, and video content (except live TV) is typically downloaded in chunks using protocols like DASH or HLS.</p>
 <p><strong>Recommendation:</strong> We recommend 5 Mbps per device to ensure a consistently good experience for all guests.</p>
 <p><strong>Management:</strong> Avoid per-device bandwidth restrictions, as they complicate management and updates. If there are concerns over bandwidth availability or management, discuss these with your account or project manager.</p>
-<h2 id="multicast-management">Multicast Management</h2>
-<p>IGMP configuration is essential for managing multicast streams across the network. It ensures that TV streams are managed efficiently and do not flood the network. Version 2 or 3 can be used, but the version must be consistent across all switches, sources and endpoints.</p>
-<p>One switch must be configured as the querier, typically the one connected to the IPTV source.
-All other switches must have IGMP snooping enabled.
-If the IGMP version needs to be changed, notify support, as all Apple TVs will require a reboot.</p>
-<p>For switches that are part of the infrastructure but do not have IPTV clients connected, two configuration options exist:</p>
-<p>Do not add the Apple TV VLAN to the switch.
-Add the VLAN to the switch and enable IGMP snooping, regardless of whether IPTV clients will connect.
-Streams should be tested using VLC on a Windows or Mac device. Monitor IGMP processes on switches to ensure proper group management.</p>
 
 
 
@@ -1268,7 +1241,7 @@ Streams should be tested using VLC on a Windows or Mac device. Monitor IGMP proc
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.expand", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.instant", "navigation.instant.progress", "navigation.tracking", "navigation.prune", "toc.follow", "navigation.top", "search.share"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.instant", "navigation.instant.progress", "navigation.tracking", "navigation.prune", "toc.follow", "navigation.top", "search.share", "navigation.expand", "navigation.path"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
