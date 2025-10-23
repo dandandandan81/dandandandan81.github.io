@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 <div class="grid cards" markdown>
 
 -   :material-lifebuoy:{ .lg .middle } __Get Support__
@@ -5,16 +11,18 @@
     ---
 
     Something not working?
+    
+    We can help.
 
-    [:octicons-arrow-right-24: Click here to get help](#)
+    [:octicons-arrow-right-24: Click here to get help](support/index.md)
 
--   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+-   :material-book-open:{ .lg .middle } __How does it work?__
 
     ---
 
-    Focus on your content and generate a responsive and searchable static site
+    User guides for Apple TV and ROOMNET Apps
 
-    [:octicons-arrow-right-24: Reference](#)
+    [:octicons-arrow-right-24: Guides](user-guides/index.md)
 
 -   :material-format-font:{ .lg .middle } __Made to measure__
 

@@ -9,6 +9,9 @@ nav:
         - ATV on Wifi: network/wifi.md
         - Spectrum TV: network/spectrum.md
       - Apple TV Hardware: network/atvhardware.md
+      - TV Hardware:
+        - Compatibility: setup/tv-hardware.md
+        - Tested Models: setup/tv-compat-matrix.md
   - User Guide:
     - Glyde: user-guides/glyde.md
     - Apple TV: user-guides/appletv.md
@@ -19,22 +22,52 @@ nav:
 site_url: https://dandandandan81.github.io
 theme:
   name: material
+  theme:
   palette:
-    primary: custom
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to system preference
   font:
-    text: Merriweather Sans
-    code: Red Hat Mono
+    text: Roboto
+    code: Roboto Mono
   features:
-    - navigation.footer
+    - navigation.expand
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.prune
+    - toc.follow
+    - navigation.top
+    - search.share
   favicon: assets/favicon.png
   logo: assets/favicon.png
+extra_css:
+  - stylesheets/extra.css
 markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.betterem
+  - tables
   - attr_list
   - md_in_html
-  - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
