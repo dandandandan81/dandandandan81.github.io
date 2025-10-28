@@ -2,18 +2,23 @@ site_name: Customer Documentation
 nav:
   - Home: index.md
   - Setup:
-    - Preinstall:
+    - Pre-requisites:
       - Network Requirements: 
-        - With Live TV (via Multicast): network/livetv.md
-        - No Live TV: network/nolivetv.md
-        - ATV on Wifi: network/wifi.md
-        - Spectrum TV: network/spectrum.md
-      - Apple TV Hardware: network/atvhardware.md
+        - Overview: network/index.md
+        - With Multicast: network/multicast.md
+        - No Multicast: network/unicast.md
+        - WiFi: network/wifi.md
+      - Apple TV Hardware: setup/atvhardware.md
       - TV Hardware:
         - Compatibility: setup/tv-hardware.md
         - Tested Models: setup/tv-compat-matrix.md
+    - Install and Configuration: 
+      - TV Setup : setup/tv-setup.md
+      - Remote Control: setup/remote-control-setup.md
+      - Onboarding rooms: setup/onboarding.md
   - User Guide:
     - Glyde: user-guides/glyde.md
+    - Remote Control: user-guides/remote-control.md
     - Apple TV: user-guides/appletv.md
     - Live TV App: user-guides/livetv.md
     - Hotel / Balcony App: user-guides/balcony.md
@@ -22,7 +27,6 @@ nav:
 site_url: https://dandandandan81.github.io
 theme:
   name: material
-  theme:
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -45,7 +49,6 @@ theme:
     text: Roboto
     code: Roboto Mono
   features:
-    - navigation.expand
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
@@ -56,6 +59,8 @@ theme:
     - toc.follow
     - navigation.top
     - search.share
+    - navigation.expand
+    - navigation.path
   favicon: assets/favicon.png
   logo: assets/favicon.png
 extra_css:
@@ -68,11 +73,13 @@ markdown_extensions:
   - tables
   - attr_list
   - md_in_html
+  - pymdownx.blocks.caption
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.tabbed:
       alternate_style: true
+      combine_header_slug: true
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -87,4 +94,3 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 copyright: Copyright &copy; 2025 ROOMNET LTD
-

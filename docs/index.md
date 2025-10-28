@@ -24,20 +24,12 @@ hide:
 
     [:octicons-arrow-right-24: Guides](user-guides/index.md)
 
--   :material-format-font:{ .lg .middle } __Made to measure__
+-   :material-cog:{ .lg .middle } __Get Started__
 
     ---
 
-    Change the colors, fonts, language, icons, logo and more with a few lines
+    Guides to start the process of getting the soluton up and ruinning
 
-    [:octicons-arrow-right-24: Customization](#)
-
--   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
-
-    ---
-
-    Material for MkDocs is licensed under MIT and available on [GitHub]
-
-    [:octicons-arrow-right-24: License](#)
+    [:octicons-arrow-right-24: Setup](setup/index.md)
 
 </div>

@@ -1,35 +1,21 @@
-<div class="grid cards" markdown>
+# Network Requirements Overview
+This documentation section provides comprehensive network requirements for deploying the ROOMNET Apple TV Solution across your infrastructure. Understanding and meeting these requirements is essential for delivering a high-quality and reliable service.
+Each deployment scenario includes detailed requirements and architectural best practices. Select the configuration that matches the scenario that is being installed. If you are not sure, your Project Manager will be able to advise.
 
--   :material-lifebuoy:{ .lg .middle } __Get Support__
+The ROOMNET AppleTV solution will require more internal and external bandwidth that a traditional Hotel IPTV system, this is due to the breadth of apps and functionallity available to guests that is not possible with traditional solutions.
+If the property has a currently working TV system, it is not a guaranteed indicator 
 
-    ---
+## Deployment Scenarios
+We've organized our network requirements into distinct deployment scenarios, each addressing specific use cases and infrastructure considerations:
 
-    Something not working?
+[__Wired Network with the ROOMNET Live TV Application (Multicast)__](multicast.md)
 
-    [:octicons-arrow-right-24: Click here to get help](#)
+For installations with a live TV service provided via multicast. Typically includes an on-premises IPTV headend, provided by ROOMNET or your telecoms provider.
 
--   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+[__Wired Network without Live TV (Unicast Only)__](unicast.md)
 
-    ---
+Deployments that do not have a multicast live TV service.
 
-    Focus on your content and generate a responsive and searchable static site
+[__WiFi-Based Deployment__](wifi.md)
 
-    [:octicons-arrow-right-24: Reference](#)
-
--   :material-format-font:{ .lg .middle } __Made to measure__
-
-    ---
-
-    Change the colors, fonts, language, icons, logo and more with a few lines
-
-    [:octicons-arrow-right-24: Customization](#)
-
--   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
-
-    ---
-
-    Material for MkDocs is licensed under MIT and available on [GitHub]
-
-    [:octicons-arrow-right-24: License](#)
-
-</div>
+Specialist installations that do not have live TV. Apple TVs are on WiFi.
