@@ -462,7 +462,7 @@
   
   
   <span class="md-ellipsis">
-    Preinstall
+    Pre-requisites
     
   </span>
   
@@ -473,7 +473,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_1">
             <span class="md-nav__icon md-icon"></span>
-            Preinstall
+            Pre-requisites
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -814,7 +814,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../atvhardware/" class="md-nav__link">
+      <a href="../../setup/atvhardware/" class="md-nav__link">
         
   
   
@@ -874,6 +874,133 @@
   
 
       
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Install and Configuration
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Install and Configuration
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../setup/tv-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TV Setup
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../setup/remote-control-setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Remote Control
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../setup/onboarding/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Onboarding rooms
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -1148,18 +1275,17 @@
 
 
 <h1 id="roomnet-apple-tv-network-requirements-for-networks-with-multicast-tv">ROOMNET Apple TV Network Requirements: For Networks with Multicast TV</h1>
-<p>This document details the geenral requirements of the ROOMNET Apple TV Solution and covers addtional requirements for providing multicast IPTV streams.
-The Guide assumes the IPTV streamer and the Apple TVs will exist within a single common VLAN. Any differing configuration is beyond the scope of this document and should be raised with your project manager allowng us top discuss and advise accordingly.</p>
+<p>This document details the general requirements of the ROOMNET Apple TV Solution and covers additional requirements for providing multicast IPTV streams.
+The Guide assumes the IPTV streamer and the Apple TVs will exist within a single common VLAN. Any differing configuration is beyond the scope of this document and should be raised with your project manager allowing us to discuss and advise accordingly.</p>
 <h2 id="core-network-foundation">Core Network Foundation</h2>
 <p>This section covers the fundamental network infrastructure, including dedicated networks, IP addressing, and hardware specifications.</p>
 <h3 id="dedicated-network-infrastructure">Dedicated Network Infrastructure</h3>
-<p><strong>Dedicated VLAN:</strong> The IPTV network must operate on a dedicated VLAN that spans the entire property as one unified network. This VLAN should <em>NOT</em> be the default VLAN (typically VLAN 1). If additional devcies beyond the IPTV streamer and ROOMNET provided equipment are to be included in the VLAN, inform your project manager so we can evaluate any impace tot he solution.</p>
+<p><strong>Dedicated VLAN:</strong> The IPTV network must operate on a dedicated VLAN that spans the entire property as one unified network. This VLAN should <em>NOT</em> be the default VLAN (typically VLAN 1). If additional devices beyond the IPTV streamer and ROOMNET provided equipment are to be included in the VLAN, inform your project manager so we can evaluate any impact to the solution.</p>
 <p><strong>Public IP Addresses:</strong>
-- A dedicated static public IP address per property is required for the TV solution. Multiple Static IPs can be accomodated but may require additional network configuration.
+- A dedicated static public IP address per property is required for the TV solution. Multiple Static IPs can be accommodated but may require additional network configuration.
 - The dynamic top-shelf configuration relies on the public IP address of each Apple TV for communication with ROOMNET's cloud infrastructure. To ensure the correct branding is shown on screen, each property needs to use unique public IPs
-- If static public IPs are not available this will reduce brandiong opportunities within the solution.</p>
+- If static public IPs are not available this will reduce branding opportunities within the solution.</p>
 <p><strong>Hardware:</strong>
-- The ROOMNET AppleTV solution allo
 - We recommend enterprise-grade networking hardware throughout the IPTV/Apple TV network. This includes manufacturers such as Cisco, Ruckus, and HP/Aruba.
 - All copper edge ports Apple TVs must be Gigabit throughout the network.
 - All uplink ports between switching hardware should Gigabit or better. Preferably 10GB or better.</p>
@@ -1200,9 +1326,9 @@ The Guide assumes the IPTV streamer and the Apple TVs will exist within a single
 <p><strong>Recommendation:</strong> We recommend 5 Mbps per device to ensure a consistently good experience for all guests.</p>
 <p><strong>Management:</strong> Avoid per-device bandwidth restrictions, as they complicate management and updates. If there are concerns over bandwidth availability or management, discuss these with your account or project manager.</p>
 <h2 id="v-spectrum-requirements">V. Spectrum Requirements</h2>
-<p>For the Spectrum network components and addtional Public IP is required. 
+<p>For the Spectrum network components an additional Public IP is required. 
 There will also need to be routing in place to allow communication between the Spectrum hardware and the Apple TVs</p>
-<p>Firther details of these requiremts will be provided by the Spectrum team.</p>
+<p>Further details of these requirements will be provided by the Spectrum team.</p>
 
 
 
