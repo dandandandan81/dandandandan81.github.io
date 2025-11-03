@@ -2,7 +2,7 @@
 This documentation section provides comprehensive network requirements for deploying the ROOMNET Apple TV Solution across your infrastructure. Understanding and meeting these requirements is essential for delivering a high-quality and reliable service.
 Each deployment scenario includes detailed requirements and architectural best practices. Select the configuration that matches the scenario that is being installed. If you are not sure, your Project Manager will be able to advise.
 
-The ROOMNET AppleTV solution will require more internal and external bandwidth that a traditional Hotel IPTV system, this is due to the breadth of apps and functionallity available to guests that is not possible with traditional solutions.
+The ROOMNET AppleTV solution will require more internal and external bandwidth that a traditional Hotel IPTV system, this is due to the breadth of apps and functionality available to guests that is not possible with traditional solutions.
 If the property has a currently working TV system, it is not a guaranteed indicator 
 
 ## Deployment Scenarios

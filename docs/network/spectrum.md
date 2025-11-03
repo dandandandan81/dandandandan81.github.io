@@ -91,8 +91,8 @@ This section provides recommendations for managing network bandwidth to ensure a
 
 ## Spectrum Requirements
 
-For the Spectrum network components an addtional Public IP is required. 
+For the Spectrum network components an additional Public IP is required. 
 There will also need to be routing in place to allow communication between the Spectrum hardware and the Apple TVs
 
-Further details of these requiremts will be provided by the Spectrum team.
+Further details of these requirements will be provided by the Spectrum team.
 

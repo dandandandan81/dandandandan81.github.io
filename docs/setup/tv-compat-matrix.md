@@ -25,7 +25,7 @@ Note the Type, Status Details and Remote Mode.
 |:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|:---|
 | LG | 42LS3400 | LS3400 | 2012 | NetCast | Retail | Global | Full HD (1920x1080) | 🔴 Not Supported | Uses an incompatible set of IR commands | CEC |
 | LG | 42LY340C | LY340C | 2020 | webOS 5.0 | Hospitality | Global | 4K UHD (3840x2160) | 🟢 Compatible | | IR |
-| LG | 43LV300C | LV300C | 2018 | webOS 5.0 | Hospitality | Global | 4K UHD (3840x2160) | 🔴 Not Supported | Screen stops responsing to remote control after extended testing | CEC |
+| LG | 43LV300C | LV300C | 2018 | webOS 5.0 | Hospitality | Global | 4K UHD (3840x2160) | 🔴 Not Supported | Screen stops responding to remote control after extended testing | CEC |
 | LG | 43LV761H | LV761H | 2018 | webOS 4.0 | Hospitality | Global | 4K UHD (3840x2160) | 🟢 Compatible | | CEC |
 | LG | 43UP751COTC | UP751C | 2021 | webOS 6.0 | Retail | Global | 4K UHD (3840x2160) | 🟢 Compatible | | CEC |
 | LG | 43UQ7 | UQ7 | 2022 | webOS 22 | Retail | Global | 4K UHD (3840x2160) | 🟢 Compatible | | CEC |

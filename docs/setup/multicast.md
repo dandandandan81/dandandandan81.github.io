@@ -1,7 +1,7 @@
 # ROOMNET Apple TV Network Requirements: For Networks with Multicast TV
 
-This document details the geenral requirements of the ROOMNET Apple TV Solution and covers addtional requirements for providing multicast IPTV streams.
-The Guide assumes the IPTV streamer and the Apple TVs will exist within a single common VLAN. Any differing configuration is beyond the scope of this document and should be raised with your project manager allowng us top discuss and advise accordingly.
+This document details the general requirements of the ROOMNET Apple TV Solution and covers additional requirements for providing multicast IPTV streams.
+The Guide assumes the IPTV streamer and the Apple TVs will exist within a single common VLAN. Any differing configuration is beyond the scope of this document and should be raised with your project manager allowing us to discuss and advise accordingly.
 
 ## Core Network Foundation
 
@@ -9,15 +9,14 @@ This section covers the fundamental network infrastructure, including dedicated 
 
 ### Dedicated Network Infrastructure
 
-**Dedicated VLAN:** The IPTV network must operate on a dedicated VLAN that spans the entire property as one unified network. This VLAN should *NOT* be the default VLAN (typically VLAN 1). If additional devcies beyond the IPTV streamer and ROOMNET provided equipment are to be included in the VLAN, inform your project manager so we can evaluate any impace tot he solution.
+**Dedicated VLAN:** The IPTV network must operate on a dedicated VLAN that spans the entire property as one unified network. This VLAN should *NOT* be the default VLAN (typically VLAN 1). If additional devices beyond the IPTV streamer and ROOMNET provided equipment are to be included in the VLAN, inform your project manager so we can evaluate any impact to the solution.
 
 **Public IP Addresses:**
-- A dedicated static public IP address per property is required for the TV solution. Multiple Static IPs can be accomodated but may require additional network configuration.
+- A dedicated static public IP address per property is required for the TV solution. Multiple Static IPs can be accommodated but may require additional network configuration.
 - The dynamic top-shelf configuration relies on the public IP address of each Apple TV for communication with ROOMNET's cloud infrastructure. To ensure the correct branding is shown on screen, each property needs to use unique public IPs
-- If static public IPs are not available this will reduce brandiong opportunities within the solution.
+- If static public IPs are not available this will reduce branding opportunities within the solution.
 
 **Hardware:**
-- The ROOMNET AppleTV solution allo
 - We recommend enterprise-grade networking hardware throughout the IPTV/Apple TV network. This includes manufacturers such as Cisco, Ruckus, and HP/Aruba.
 - All copper edge ports Apple TVs must be Gigabit throughout the network.
 - All uplink ports between switching hardware should Gigabit or better. Preferably 10GB or better.
@@ -28,7 +27,7 @@ This section covers the fundamental network infrastructure, including dedicated 
 
 **Outbound Traffic:** The IPTV VLAN must have no outbound restrictions. This network should be managed similarly to guest HSIA networks, meaning no filtering, proxies, packet inspection, or other technologies that could interfere with outbound network traffic. There are no requirements for inbound configurations.
 
-## II. Essential Services & Servers
+## Essential Services & Servers
 
 This section details the critical services and servers required for the Apple TV solution to function correctly.
 
@@ -52,7 +51,7 @@ This section details the critical services and servers required for the Apple TV
 
 **IP Assignment:** Manual IP addresses for IPTV endpoints cannot be used because devices are wiped after checkout. However, it is acceptable to use DHCP reservations via MAC address. A complete list of MAC addresses cannot be made available until all Apple TVs have been enrolled in MDM.
 
-## III. Switch & Port Optimizations
+## Switch & Port Optimizations
 
 This section outlines specific switch and port configurations needed for optimal performance and management of Apple TV traffic.
 
@@ -77,7 +76,7 @@ This section outlines specific switch and port configurations needed for optimal
 
 **Caution:** Avoid general port isolation commands, as they can disrupt MDM connections and other functions.
 
-## IV. Bandwidth & Performance
+## Bandwidth & Performance
 
 This section provides recommendations for managing network bandwidth to ensure a consistent and high-quality guest experience.
 
@@ -88,11 +87,3 @@ This section provides recommendations for managing network bandwidth to ensure a
 **Recommendation:** We recommend 5 Mbps per device to ensure a consistently good experience for all guests.
 
 **Management:** Avoid per-device bandwidth restrictions, as they complicate management and updates. If there are concerns over bandwidth availability or management, discuss these with your account or project manager.
-
-## V. Spectrum Requirements
-
-For the Spectrum network components and addtional Public IP is required. 
-There will also need to be routing in place to allow communication between the Spectrum hardware and the Apple TVs
-
-Firther details of these requiremts will be provided by the Spectrum team.
-

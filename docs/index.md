@@ -28,8 +28,9 @@ hide:
 
     ---
 
-    Guides to start the process of getting the soluton up and ruinning
+    Guides to start the process of getting the solution up and running
 
     [:octicons-arrow-right-24: Setup](setup/index.md)
 
 </div>
+

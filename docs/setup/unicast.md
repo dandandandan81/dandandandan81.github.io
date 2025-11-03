@@ -1,5 +1,11 @@
 # ROOMNET Apple TV Network Requirements: For Networks without Live TV
-The ROOMNET Apple TV solution is cloud-based and enables users to stream their favorite content. A robust and correctly configured network is essential for a good user experience.
+The ROOMNET Apple TV solution is cloud-based and enables users to stream their favorite content.  
+
+Understanding and meeting network requirements is essential for delivering a high-quality and reliable service.
+Each deployment scenario includes requirements and architectural best practices. Select the configuration that matches the scenario that is being installed. If you are not sure, your project manager will be able to advise.
+
+The ROOMNET AppleTV solution will require more internal and external bandwidth that a traditional Hotel IPTV system, this is due to the breadth of apps and functionality available to guests that is not possible with traditional solutions.
+
 
 ## Core Network Foundation
 

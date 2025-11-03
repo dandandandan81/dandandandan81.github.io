@@ -2,28 +2,30 @@ site_name: Customer Documentation
 nav:
   - Home: index.md
   - Setup:
-    - Pre-requisites:
-      - Network Requirements: 
-        - Overview: network/index.md
-        - With Multicast: network/multicast.md
-        - No Multicast: network/unicast.md
-        - WiFi: network/wifi.md
-      - Apple TV Hardware: setup/atvhardware.md
-      - TV Hardware:
-        - Compatibility: setup/tv-hardware.md
-        - Tested Models: setup/tv-compat-matrix.md
-    - Install and Configuration: 
-      - TV Setup : setup/tv-setup.md
-      - Remote Control: setup/remote-control-setup.md
-      - Onboarding rooms: setup/onboarding.md
-  - User Guide:
-    - Glyde: user-guides/glyde.md
-    - Remote Control: user-guides/remote-control.md
-    - Apple TV: user-guides/appletv.md
-    - Live TV App: user-guides/livetv.md
-    - Hotel / Balcony App: user-guides/balcony.md
-    - Reset App: user-guides/reset.md
-  - Support: support/index.md
+    - "Setup Guide": setup/index.md
+    - "Network":
+      - "With Multicast": setup/multicast.md
+      - "No Multicast": setup/unicast.md
+      - "WiFi Only": setup/wifi.md
+    - "Hardware":
+      - "AppleTV": setup/atvhardware.md
+      - "TV/Screens": setup/tv-hardware.md
+      - "Tested TV Models": setup/tv-compat-matrix.md
+    - "Configuration & Install": 
+      - "TV Setup" : setup/tv-setup.md
+      - "Remote Control": setup/remote-control-setup.md
+      - "Onboarding Devices": setup/onboarding.md
+  - "User Guide":
+    - "Guide": user-guides/index.md
+    - "System":
+      - "Glyde": user-guides/glyde.md
+      - "Remote Control": user-guides/remote-control.md
+      - "Apple TV": user-guides/appletv.md
+    - "Apps":
+      - "Live TV App": user-guides/livetv.md
+      - "Hotel / Balcony App": user-guides/balcony.md
+      - "Reset App": user-guides/reset.md
+  - "Support": support/index.md
 site_url: https://dandandandan81.github.io
 theme:
   name: material
@@ -49,18 +51,17 @@ theme:
     text: Roboto
     code: Roboto Mono
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
+    - navigation.indexes
     - navigation.sections
-    - navigation.instant
-    - navigation.instant.progress
-    - navigation.tracking
-    - navigation.prune
-    - toc.follow
-    - navigation.top
-    - search.share
-    - navigation.expand
-    - navigation.path
+    - navigation.tabs
+    # - navigation.instant # Incompatible with mkdocs_static_i18n
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.action.view
+    - announce.dismiss
+    - content.tabs.link
   favicon: assets/favicon.png
   logo: assets/favicon.png
 extra_css:

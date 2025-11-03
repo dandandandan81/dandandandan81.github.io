@@ -1,11 +1,11 @@
 ## Summary
 
-This guide covers onboarding Apple Busines Maanger enrolled Apple TVs to ROOMNETs Apple TV platform.
+This guide covers onboarding Apple Business Manager enrolled Apple TVs to ROOMNETs Apple TV platform.
 
 ## Requirements
 
 !!! info
-    You will not be able to start the onboarding process until the basic configuraiton of your property has been completed by a ROOMNET engineer. Your project manager will confirm when htis has been completed.
+    You will not be able to start the onboarding process until the basic configuration of your property has been completed by a ROOMNET engineer. Your project manager will confirm when this has been completed.
 
 - All Apple TVs must be enrolled to Apple Business Manager and associated with ROOMNET's MDM platform.
 - Physical access to the Apple TVs that require setup.
@@ -27,9 +27,9 @@ This guide covers onboarding Apple Busines Maanger enrolled Apple TVs to ROOMNET
 8. On successful registration, the Apple TV will reset and go through the auto-configuration process again. When it reaches the main menu, it will install required applications and be ready to use.
 
 !!! info
-    When Naming the devices consider how many are installed in each room. If there are multiple name them so they are easily identafiable e.g. Room 101 Bedroom, Room 101 Lounge etc...
+    When Naming the devices consider how many are installed in each room. If there are multiple name them so they are easily identifiable e.g. Room 101 Bedroom, Room 101 Lounge etc...
     
-    This will make it easier for guest who want to airplay content and aid devcie identification in glyde.
+    This will make it easier for guest who want to airplay content and aid device identification in glyde.
 
 ## Video Guide
 
@@ -44,7 +44,7 @@ This guide covers onboarding Apple Busines Maanger enrolled Apple TVs to ROOMNET
 3. Check the Apple TV has been correctly assigned to MDM.
 4. Escalate to your ROOMNET project manager.
 
-### ZERO Application Not Installed/Launching
+### Device Enrollment Application Not Installed/Launching
 
 1. Ensure the device has Internet connectivity. Go to the App store and check if it shows content.
 2. Press the Back/Exit key on the remote control several times.
