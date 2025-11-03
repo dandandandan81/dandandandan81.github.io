@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://dandandandan81.github.io/network/multicast/">
+        <link rel="canonical" href="https://dandandandan81.github.io/setup/unicast/">
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../multicast/">
       
       
-        <link rel="next" href="../unicast/">
+        <link rel="next" href="../wifi/">
       
       
       <link rel="icon" href="../../assets/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>With Multicast - Customer Documentation</title>
+        <title>No Multicast - Customer Documentation</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#roomnet-apple-tv-network-requirements-for-networks-with-multicast-tv" class="md-skip">
+        <a href="#roomnet-apple-tv-network-requirements-for-networks-without-live-tv" class="md-skip">
           Skip to content
         </a>
       
@@ -88,9 +88,7 @@
     
       
 
-  
-
-<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+<header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="Customer Documentation" class="md-header__button md-logo" aria-label="Customer Documentation" data-md-component="logo">
       
@@ -111,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              With Multicast
+              No Multicast
             
           </span>
         </div>
@@ -178,16 +176,13 @@
       </label>
       <nav class="md-search__options" aria-label="Search">
         
-          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
-            
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
-          </a>
-        
         <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
           
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
         </button>
       </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
       
     </form>
     <div class="md-search__output">
@@ -207,8 +202,14 @@
     
   </nav>
   
+</header>
     
+    <div class="md-container" data-md-component="container">
       
+      
+        
+          
+            
 <nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
   <div class="md-grid">
     <ul class="md-tabs__list">
@@ -241,39 +242,17 @@
   
     
     
-      
-  
-  
-  
-    
-  
-  
-    
-    
-      
-  
-  
-  
-    
-  
-  
-    
-    
       <li class="md-tabs__item md-tabs__item--active">
         <a href="../" class="md-tabs__link">
           
   
   
+    
+  
   Setup
 
         </a>
       </li>
-    
-  
-
-    
-  
-
     
   
 
@@ -286,9 +265,11 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../user-guides/glyde/" class="md-tabs__link">
+        <a href="../../user-guides/" class="md-tabs__link">
           
   
+  
+    
   
   User Guide
 
@@ -320,13 +301,7 @@
     </ul>
   </div>
 </nav>
-    
-  
-</header>
-    
-    <div class="md-container" data-md-component="container">
-      
-      
+          
         
       
       <main class="md-main" data-md-component="main">
@@ -343,7 +318,9 @@
   
 
 
-<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="Customer Documentation" class="md-nav__button md-logo" aria-label="Customer Documentation" data-md-component="logo">
       
@@ -387,6 +364,18 @@
   
     
     
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
     
     
       
@@ -397,8 +386,6 @@
         
       
     
-    
-      
     
     <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
@@ -407,8 +394,9 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
-            
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -417,8 +405,14 @@
   </span>
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
@@ -428,54 +422,6 @@
           <ul class="md-nav__list" data-md-scrollfix>
             
               
-                
-  
-  
-    
-  
-  
-  
-    
-    
-    
-    
-      
-      
-        
-          
-          
-        
-      
-    
-    
-      
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="">
-            
-  
-  
-  <span class="md-ellipsis">
-    Pre-requisites
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_2_1">
-            <span class="md-nav__icon md-icon"></span>
-            Pre-requisites
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
@@ -487,29 +433,38 @@
   
     
     
-    
-    
       
+        
+      
+        
       
         
       
     
     
-      
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_1" checked>
+      
         
           
-          <label class="md-nav__link" for="__nav_2_1_1" id="__nav_2_1_1_label" tabindex="0">
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
             
   
   
   <span class="md-ellipsis">
-    Network Requirements
+    Network
     
   </span>
   
@@ -517,10 +472,10 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_1_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_2_1_1">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
-            Network Requirements
+            Network
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -531,12 +486,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../" class="md-nav__link">
+      <a href="../multicast/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Overview
+    With Multicast
     
   </span>
   
@@ -568,7 +523,7 @@
   
   
   <span class="md-ellipsis">
-    With Multicast
+    No Multicast
     
   </span>
   
@@ -581,7 +536,7 @@
   
   
   <span class="md-ellipsis">
-    With Multicast
+    No Multicast
     
   </span>
   
@@ -637,13 +592,13 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#ii-essential-services-servers" class="md-nav__link">
+  <a href="#essential-services-servers" class="md-nav__link">
     <span class="md-ellipsis">
-      II. Essential Services &amp; Servers
+      Essential Services &amp; Servers
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="II. Essential Services &amp; Servers">
+    <nav class="md-nav" aria-label="Essential Services &amp; Servers">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -679,13 +634,13 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#iii-switch-port-optimizations" class="md-nav__link">
+  <a href="#switch-port-optimizations" class="md-nav__link">
     <span class="md-ellipsis">
-      III. Switch &amp; Port Optimizations
+      Switch &amp; Port Optimizations
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="III. Switch &amp; Port Optimizations">
+    <nav class="md-nav" aria-label="Switch &amp; Port Optimizations">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -712,13 +667,13 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#iv-bandwidth-performance" class="md-nav__link">
+  <a href="#bandwidth-performance" class="md-nav__link">
     <span class="md-ellipsis">
-      IV. Bandwidth &amp; Performance
+      Bandwidth &amp; Performance
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="IV. Bandwidth &amp; Performance">
+    <nav class="md-nav" aria-label="Bandwidth &amp; Performance">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -732,15 +687,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#v-spectrum-requirements" class="md-nav__link">
-    <span class="md-ellipsis">
-      V. Spectrum Requirements
-    </span>
-  </a>
   
 </li>
       
@@ -760,35 +706,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../unicast/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    No Multicast
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../wifi/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    WiFi
+    WiFi Only
     
   </span>
   
@@ -813,87 +736,15 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../setup/atvhardware/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Apple TV Hardware
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-    
-      
-      
-        
-      
     
     
       
         
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
       
         
-  
-  
-  
-    <a href="../../setup/tv-hardware/" class="md-nav__link">
       
-  
-  
-  <span class="md-ellipsis">
-    TV Hardware
-    
-  </span>
-  
-
+        
       
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
     
     
     
@@ -905,24 +756,20 @@
         
       
     
-    
-      
     
     <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
         
           
-          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="">
             
   
   
   <span class="md-ellipsis">
-    Install and Configuration
+    Hardware
     
   </span>
   
@@ -930,10 +777,10 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_2">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
             <span class="md-nav__icon md-icon"></span>
-            Install and Configuration
+            Hardware
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -944,7 +791,138 @@
   
   
     <li class="md-nav__item">
-      <a href="../../setup/tv-setup/" class="md-nav__link">
+      <a href="../atvhardware/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AppleTV
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tv-hardware/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    TV/Screens
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tv-compat-matrix/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tested TV Models
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Configuration & Install
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Configuration & Install
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tv-setup/" class="md-nav__link">
         
   
   
@@ -967,7 +945,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../setup/remote-control-setup/" class="md-nav__link">
+      <a href="../remote-control-setup/" class="md-nav__link">
         
   
   
@@ -990,12 +968,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../setup/onboarding/" class="md-nav__link">
+      <a href="../onboarding/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Onboarding rooms
+    Onboarding Devices
     
   </span>
   
@@ -1029,6 +1007,16 @@
   
     
     
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
     
     
       
@@ -1037,19 +1025,16 @@
       
     
     
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
-  
-  
-  
-    <a href="../../user-guides/glyde/" class="md-nav__link">
-      
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../user-guides/" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -1058,12 +1043,282 @@
   </span>
   
 
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            User Guide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
       
-        <span class="md-nav__icon md-icon"></span>
+        
       
-    </a>
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    System
+    
+  </span>
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            System
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guides/glyde/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glyde
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guides/remote-control/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Remote Control
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guides/appletv/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Apple TV
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Apps
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Apps
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guides/livetv/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Live TV App
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guides/balcony/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Hotel / Balcony App
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guides/reset/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Reset App
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -1098,173 +1353,6 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#core-network-foundation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Core Network Foundation
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Core Network Foundation">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#dedicated-network-infrastructure" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dedicated Network Infrastructure
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#network-connectivity-traffic-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      Network Connectivity &amp; Traffic Management
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ii-essential-services-servers" class="md-nav__link">
-    <span class="md-ellipsis">
-      II. Essential Services &amp; Servers
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="II. Essential Services &amp; Servers">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#roomnet-caching-server" class="md-nav__link">
-    <span class="md-ellipsis">
-      ROOMNET Caching Server
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dns-configuration" class="md-nav__link">
-    <span class="md-ellipsis">
-      DNS Configuration
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dhcp-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      DHCP Management
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#iii-switch-port-optimizations" class="md-nav__link">
-    <span class="md-ellipsis">
-      III. Switch &amp; Port Optimizations
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="III. Switch &amp; Port Optimizations">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#port-fast-configuration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Port-Fast Configuration
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#mdns-traffic-management" class="md-nav__link">
-    <span class="md-ellipsis">
-      mDNS Traffic Management
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#iv-bandwidth-performance" class="md-nav__link">
-    <span class="md-ellipsis">
-      IV. Bandwidth &amp; Performance
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="IV. Bandwidth &amp; Performance">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#bandwidth-recommendations" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bandwidth Recommendations
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#v-spectrum-requirements" class="md-nav__link">
-    <span class="md-ellipsis">
-      V. Spectrum Requirements
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           
             <div class="md-content" data-md-component="content">
@@ -1274,25 +1362,29 @@
 
 
 
-<h1 id="roomnet-apple-tv-network-requirements-for-networks-with-multicast-tv">ROOMNET Apple TV Network Requirements: For Networks with Multicast TV</h1>
-<p>This document details the general requirements of the ROOMNET Apple TV Solution and covers additional requirements for providing multicast IPTV streams.
-The Guide assumes the IPTV streamer and the Apple TVs will exist within a single common VLAN. Any differing configuration is beyond the scope of this document and should be raised with your project manager allowing us to discuss and advise accordingly.</p>
+<h1 id="roomnet-apple-tv-network-requirements-for-networks-without-live-tv">ROOMNET Apple TV Network Requirements: For Networks without Live TV</h1>
+<p>The ROOMNET Apple TV solution is cloud-based and enables users to stream their favorite content.  </p>
+<p>Understanding and meeting network requirements is essential for delivering a high-quality and reliable service.
+Each deployment scenario includes requirements and architectural best practices. Select the configuration that matches the scenario that is being installed. If you are not sure, your project manager will be able to advise.</p>
+<p>The ROOMNET AppleTV solution will require more internal and external bandwidth that a traditional Hotel IPTV system, this is due to the breadth of apps and functionality available to guests that is not possible with traditional solutions.</p>
 <h2 id="core-network-foundation">Core Network Foundation</h2>
 <p>This section covers the fundamental network infrastructure, including dedicated networks, IP addressing, and hardware specifications.</p>
 <h3 id="dedicated-network-infrastructure">Dedicated Network Infrastructure</h3>
-<p><strong>Dedicated VLAN:</strong> The IPTV network must operate on a dedicated VLAN that spans the entire property as one unified network. This VLAN should <em>NOT</em> be the default VLAN (typically VLAN 1). If additional devices beyond the IPTV streamer and ROOMNET provided equipment are to be included in the VLAN, inform your project manager so we can evaluate any impact to the solution.</p>
+<p><strong>Dedicated VLAN:</strong> The IPTV network must operate on a dedicated VLAN that spans the entire property as one unified network. This VLAN should <em>NOT</em> be the default VLAN (typically VLAN 1). If additional services beyond TV systems are required on the IPTV VLAN, inform your project manager to ensure no impact on the TV solution.</p>
 <p><strong>Public IP Addresses:</strong>
-- A dedicated static public IP address per property is required for the TV solution. Multiple Static IPs can be accommodated but may require additional network configuration.
-- The dynamic top-shelf configuration relies on the public IP address of each Apple TV for communication with ROOMNET's cloud infrastructure. To ensure the correct branding is shown on screen, each property needs to use unique public IPs
-- If static public IPs are not available this will reduce branding opportunities within the solution.</p>
+- A dedicated static public IP address per property is required for the TV solution.
+- The dynamic top-shelf configuration relies on the public IP address of each Apple TV for communication with ROOMNET's cloud infrastructure.
+- Each property must use a unique public IP.
+- A maximum of two separate public IP blocks per location is supported.
+- If more than one public IP is used, notify your project manager or ROOMNET as soon as possible for the necessary additional DHCP configuration.</p>
 <p><strong>Hardware:</strong>
 - We recommend enterprise-grade networking hardware throughout the IPTV/Apple TV network. This includes manufacturers such as Cisco, Ruckus, and HP/Aruba.
 - All copper edge ports Apple TVs must be Gigabit throughout the network.
-- All uplink ports between switching hardware should Gigabit or better. Preferably 10GB or better.</p>
+- All uplink ports between switching hardware should Gigabit or better.</p>
 <h3 id="network-connectivity-traffic-management">Network Connectivity &amp; Traffic Management</h3>
 <p><strong>Wired Connectivity:</strong> Ensure wired Gigabit network connectivity for all in-room hardware.</p>
 <p><strong>Outbound Traffic:</strong> The IPTV VLAN must have no outbound restrictions. This network should be managed similarly to guest HSIA networks, meaning no filtering, proxies, packet inspection, or other technologies that could interfere with outbound network traffic. There are no requirements for inbound configurations.</p>
-<h2 id="ii-essential-services-servers">II. Essential Services &amp; Servers</h2>
+<h2 id="essential-services-servers">Essential Services &amp; Servers</h2>
 <p>This section details the critical services and servers required for the Apple TV solution to function correctly.</p>
 <h3 id="roomnet-caching-server">ROOMNET Caching Server</h3>
 <p><strong>Purpose:</strong> This server is a Mac Mini that utilizes Apple's caching service along with custom ROOMNET configurations. It hosts apps, firmware, and local replicas of assets such as branding, channel icons, and top-shelf content. It also provides a convenient way to investigate network issues.</p>
@@ -1304,7 +1396,7 @@ The Guide assumes the IPTV streamer and the Apple TVs will exist within a single
 <h3 id="dhcp-management">DHCP Management</h3>
 <p><strong>Requirement:</strong> DHCP should be configured on the IPTV VLAN.</p>
 <p><strong>IP Assignment:</strong> Manual IP addresses for IPTV endpoints cannot be used because devices are wiped after checkout. However, it is acceptable to use DHCP reservations via MAC address. A complete list of MAC addresses cannot be made available until all Apple TVs have been enrolled in MDM.</p>
-<h2 id="iii-switch-port-optimizations">III. Switch &amp; Port Optimizations</h2>
+<h2 id="switch-port-optimizations">Switch &amp; Port Optimizations</h2>
 <p>This section outlines specific switch and port configurations needed for optimal performance and management of Apple TV traffic.</p>
 <h3 id="port-fast-configuration">Port-Fast Configuration</h3>
 <p><strong>Requirement:</strong> All switch ports with Apple TVs connected should have port-fast enabled.</p>
@@ -1319,16 +1411,12 @@ The Guide assumes the IPTV streamer and the Apple TVs will exist within a single
 </ul>
 <p><strong>Application:</strong> Apply these restrictions to the edge ports where Apple TVs connect. If that is not possible, apply them to uplink ports to contain mDNS traffic to each switch.</p>
 <p><strong>Caution:</strong> Avoid general port isolation commands, as they can disrupt MDM connections and other functions.</p>
-<h2 id="iv-bandwidth-performance">IV. Bandwidth &amp; Performance</h2>
+<h2 id="bandwidth-performance">Bandwidth &amp; Performance</h2>
 <p>This section provides recommendations for managing network bandwidth to ensure a consistent and high-quality guest experience.</p>
 <h3 id="bandwidth-recommendations">Bandwidth Recommendations</h3>
 <p><strong>Efficiency:</strong> Apple TVs are generally efficient in WAN bandwidth usage. Most applications do not require constant streaming from external sources, and video content (except live TV) is typically downloaded in chunks using protocols like DASH or HLS.</p>
 <p><strong>Recommendation:</strong> We recommend 5 Mbps per device to ensure a consistently good experience for all guests.</p>
 <p><strong>Management:</strong> Avoid per-device bandwidth restrictions, as they complicate management and updates. If there are concerns over bandwidth availability or management, discuss these with your account or project manager.</p>
-<h2 id="v-spectrum-requirements">V. Spectrum Requirements</h2>
-<p>For the Spectrum network components an additional Public IP is required. 
-There will also need to be routing in place to allow communication between the Spectrum hardware and the Apple TVs</p>
-<p>Further details of these requirements will be provided by the Spectrum team.</p>
 
 
 
@@ -1346,14 +1434,10 @@ There will also need to be routing in place to allow communication between the S
             </div>
           
           
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
-        
-          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
-  Back to top
-</button>
         
       </main>
       
@@ -1384,12 +1468,10 @@ There will also need to be routing in place to allow communication between the S
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
-    
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.instant", "navigation.instant.progress", "navigation.tracking", "navigation.prune", "toc.follow", "navigation.top", "search.share", "navigation.expand", "navigation.path"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.sections", "navigation.tabs", "toc.integrate", "search.suggest", "search.highlight", "content.action.edit", "content.action.view", "announce.dismiss", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
