@@ -25,4 +25,5 @@ The important functions are
 2. If the TV does not appear on our test list, it will need to be tested. Your project manager will arrange this with you.
 
 ## Outcomes
-Ideally all TV models are supported
+
+Whilst we are able to support a wide range of TVs 

@@ -3,18 +3,24 @@ nav:
   - Home: index.md
   - Setup:
     - "Setup Guide": setup/index.md
-    - "Network":
-      - "With Multicast": setup/multicast.md
-      - "No Multicast": setup/unicast.md
+    - "Network Preperation":
+      - "With Multicast TV": setup/multicast.md
+      - "No Multicast TV": setup/unicast.md
       - "WiFi Only": setup/wifi.md
-    - "Hardware":
-      - "AppleTV": setup/atvhardware.md
+    - "Hardware Preperation":
       - "TV/Screens": setup/tv-hardware.md
+      - "Apple TV": setup/atvhardware.md
       - "Tested TV Models": setup/tv-compat-matrix.md
     - "Configuration & Install": 
       - "TV Setup" : setup/tv-setup.md
       - "Remote Control": setup/remote-control-setup.md
       - "Onboarding Devices": setup/onboarding.md
+  - "TV Setup Guides":
+    - "tv-guide": tv-guides/index.md
+    - "LG Retail":
+      - "QNED85 Series": tv-guides/lg/LG-QNED85.md
+    - "Samsung Hospitality": 
+      - "HG AU800 Series " : tv-guides/samsung/HG-AU800.md
   - "User Guide":
     - "Guide": user-guides/index.md
     - "System":
@@ -67,6 +73,12 @@ theme:
 extra_css:
   - stylesheets/extra.css
 markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.tabbed:
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true

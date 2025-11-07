@@ -8,7 +8,7 @@ If You are procuring your Apple TVs they will need to be enrolled to an Apple Bu
 
 If you have an Apple Business Manager account and wish to assign your AppleTVs to it, we will need to link your business manager account to our MDM. Your project manager will discuss the process with you. You can purchase the AppleTVs before the MDM link is complete.
 
-### Using the ROOMNET Business manager account
+### Using ROOMNETs Business manager account
 
 If you are procuring the Apple TVs but do not have or wish to use your own business manager account, the AppleTVs can be assigned to ROOMNETs account.
 Your project manager will provide you with our account ID. We will require the account ID of the reseller you are purchasing from so they can be allowed to assign devices to us.
